@@ -2,6 +2,7 @@ name: deploy website
 on: [pull_request]
 jobs:
   deploy:
+    if: ${{ github.event.label.name == 'dev' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
