@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      test page {process.env.NEXT_PUBLIC_TEST}
+      dev page {process.env.NEXT_PUBLIC_TEST}
     </div>
   )
 }
