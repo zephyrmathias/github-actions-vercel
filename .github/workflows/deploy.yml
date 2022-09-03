@@ -16,4 +16,4 @@ jobs:
           vercel-project-id: ${{ secrets.PROJECT_ID}} #Required 
           working-directory: ./
           alias-domains:
-            pr-{{PR_NUMBER}}-zephyrmathias.vercel.app
+            dev-zephyrmathias.vercel.app
